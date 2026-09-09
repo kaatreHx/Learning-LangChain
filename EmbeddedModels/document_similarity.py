@@ -11,10 +11,10 @@ document = [
     "Ram is Doctor. He is 25 years old",
     "Laxman is engineer. He is 26 years old",
     "Sita is teacher. She is 25 years old",
-    "Hanuman is pilot. He is 26 years old"
+    "Hanuman is Docter. He is 26 years old"
 ]
 
-query = "What is the profession of Ram?"
+query = "Whhich doctor is more younger?"
 query_embedding = model.embed_query(query)
 
 doc_embeddings = model.embed_documents(document)
