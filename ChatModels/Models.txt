@@ -1,0 +1,18 @@
+An interface that helps to communicate with the AI models
+
+Two type of models
+
+Language Models:
+-LLMs: Input is String, Output is String
+-Chat Models: Input is List of Messages, Output is a Message (for conversational tasks)
+
+LLMs in langchain
+-OpenAI
+-Anthropic
+-Google Gemini
+-Hugging Face
+
+temperature is a parameter that controls the randomness of Language Models.
+- Higher the value, more random the output
+- Lower the value, more deterministic the output
+- Default value is 1.0

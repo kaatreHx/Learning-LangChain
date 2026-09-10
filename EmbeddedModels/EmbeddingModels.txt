@@ -1,0 +1,1 @@
+It is used to convert text to vector for contextual understanding
