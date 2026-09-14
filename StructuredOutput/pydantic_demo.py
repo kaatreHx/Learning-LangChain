@@ -19,10 +19,10 @@ new_student = {
 
 student = Student(**new_student)
 
-student_dict = student.model_dump()
+student_dict = student.model_dump() #dump object to dict
 
 print(student_dict)
 
-student_json = student.model_dump_json()
+student_json = student.model_dump_json() #dump object to json
 
 print(student_json)
