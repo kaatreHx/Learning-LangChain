@@ -1,0 +1,15 @@
+Use TypeDict if: 
+- You only need type hints
+- You dont need validation
+- you trust LLM
+
+
+Use Pydantic if:
+- You need validation
+- You need type checking
+- You automatic type conversion
+
+Use JsonSchema if:
+- You dont want to import extra python libraries
+- You need validation but not python object
+- You want to define struc json format
