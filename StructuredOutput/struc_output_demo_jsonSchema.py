@@ -15,7 +15,6 @@ model = ChatHuggingFace(llm=llm)
 with open("StructuredOutput/json_schema.json", "r") as f:
     schema = json.load(f)
 
-# Fix: Force JSON mode extraction instead of function calling
 structured_llm = model.with_structured_output(schema, method="json_mode")
 
 res = structured_llm.invoke(
