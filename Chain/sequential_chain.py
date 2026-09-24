@@ -1,4 +1,3 @@
-from tempfile import template
 from langchain_huggingface import HuggingFaceEndpoint, ChatHuggingFace
 from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
