@@ -16,4 +16,5 @@ docs = loader.lazy_load()
 # for i in docs:
 #     print(i)
 
-print(docs)
+print(next(docs))
+print(next(docs))
