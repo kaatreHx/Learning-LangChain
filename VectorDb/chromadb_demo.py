@@ -46,5 +46,6 @@ vector_store.update_documents(
     ]
 )
 
+vector_store.delete(ids=["python-1"]) #delete the vectors by ids
 print(vector_store.get(ids=["python-1"]))
 
